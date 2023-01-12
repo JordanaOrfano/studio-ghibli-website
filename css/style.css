@@ -30,3 +30,9 @@
 	transform: scaleX(1);
 	transform-origin: bottom center;
 }
+
+.carousel .carousel-indicators button {
+	width: 7px;
+	height: 7px;
+	border-radius: 100%;
+}
