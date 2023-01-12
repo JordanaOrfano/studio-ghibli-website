@@ -1,0 +1,32 @@
+/* navbar links */
+.navlink {
+	color: #181a18;
+	font-family: 'Nunito', sans-serif;
+	font-size: 22px;
+	text-decoration: none;
+
+	display: inline-block;
+	position: relative;
+}
+
+.navlink:hover {
+	color: #181a18;
+}
+
+.navlink:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #181a18;
+	transform-origin: bottom center;
+	transition: transform 0.25s ease-out;
+}
+
+.navlink:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom center;
+}
