@@ -1,5 +1,5 @@
 /* navbar */
-.navlink {
+.navbar-link {
 	color: #181a18;
 	display: inline-block;
 	font-family: 'Nunito', sans-serif;
@@ -8,12 +8,12 @@
 	text-decoration: none;
 }
 
-.navlink:hover {
-	color: #181a18;
+.navbar-link:hover {
+	color: rgba(212, 163, 156);
 }
 
-.navlink:after {
-	background-color: #181a18;
+.navbar-link:after {
+	background-color: rgba(212, 163, 156);
 	bottom: 0;
 	content: '';
 	height: 2px;
@@ -25,7 +25,7 @@
 	width: 100%;
 }
 
-.navlink:hover:after {
+.navbar-link:hover:after {
 	transform: scaleX(1);
 	transform-origin: bottom center;
 }
