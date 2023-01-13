@@ -42,6 +42,7 @@
 
 /*--- movie cards ---*/
 .card {
+	width: 16rem;
 	border-radius: 1em;
 	position: relative;
 	display: flex;
@@ -80,7 +81,7 @@
 }
 
 .card-button {
-	padding: 0.5rem 55px;
+	padding: 0.5rem 63px;
 	margin-bottom: 25px;
 	outline: none;
 	border: none;
@@ -106,6 +107,16 @@
 }
 
 .card-button:hover {
-	background: rgba(212, 163, 156, 1);
+	background: rgb(212, 163, 156);
 	color: rgb(255, 255, 255);
 }
+
+@media only screen and (max-width: 425px) {
+	.card {
+		width: 22rem;
+	}
+	.card-button {
+		padding: 0.5rem 111px;
+	}
+}
+
