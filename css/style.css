@@ -1,8 +1,11 @@
+* {
+	font-family: 'Nunito', sans-serif;
+}
+
 /* navbar */
 .navbar-link {
-	color: #181a18;
+	color: rgb(24, 26, 24);
 	display: inline-block;
-	font-family: 'Nunito', sans-serif;
 	font-size: 22px;
 	position: relative;
 	text-decoration: none;
@@ -40,14 +43,14 @@
 /* movie cards */
 .card {
 	border-radius: 1em;
-	background: #f5f5f5;
 	position: relative;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: end;
 	transition: 0.4s ease-out;
 	box-shadow: 0px 7px 20px rgba(43, 8, 37, 0.2);
 	margin: 10px;
+	font-weight: 500;
 }
 
 .card:before {
@@ -65,26 +68,25 @@
 .card-info {
 	position: absolute;
 	z-index: 3;
-	color: #f5f5f5;
+	color: rgb(255, 255, 255);
 	opacity: 0;
 	transform: translateY(20%);
 	transition: 0.5s;
+	padding: 0px 25px;
 }
 
 .card-title {
 	font-size: 1.2rem;
-	font-weight: 500;
 }
 
 .card-button {
-	padding: 0.5rem;
+	padding: 0.5rem 55px;
 	margin-bottom: 25px;
 	outline: none;
 	border: none;
 	border-radius: 4px;
 	background: rgba(23, 26, 23, 0.8);
-	color: white;
-	font-weight: bold;
+	color: rgb(255, 255, 255);
 	transition: 0.4s ease;
 }
 
@@ -105,5 +107,5 @@
 
 .card-button:hover {
 	background: rgba(212, 163, 156, 1);
-	color: #f5f5f5;
+	color: rgb(255, 255, 255);
 }
