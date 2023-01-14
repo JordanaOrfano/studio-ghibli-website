@@ -201,9 +201,15 @@
 	border: 0px solid #ffffff;
 }
 
+/*--- footer ---*/
+.icon-tabler-brand-twitter:hover,
+.icon-tabler-brand-instagram:hover,
+.icon-tabler-external-link:hover {
+	stroke: rgb(212, 163, 156);
+	transition: 0.3s ease;
+}
+
 h1 {
 	font-family: 'Jost', sans-serif;
 	font-weight: 600;
-}
-
 }
