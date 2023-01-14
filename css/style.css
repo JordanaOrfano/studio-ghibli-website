@@ -177,12 +177,26 @@
 	}
 }
 
+/*--- Scrollbar ---*/
+/* Firefox */
+* {
+	scrollbar-width: auto;
+	scrollbar-color: #d4a39c #ffffff;
 }
 
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 6px;
 }
 
+*::-webkit-scrollbar-track {
+	background: #ffffff;
 }
 
+*::-webkit-scrollbar-thumb {
+	background-color: #d4a39c;
+	border-radius: 0px;
+	border: 0px solid #ffffff;
 }
 
 }
