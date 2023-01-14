@@ -58,17 +58,14 @@
 }
 
 .search-btn {
-	color: rgb(212, 163, 156);
 	float: right;
 	width: 20px;
 	height: 20px;
 	border-radius: 50px;
-	background: rgb(212, 163, 156);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-decoration: none;
-	transition: 0.3s;
 }
 
 .search-input:focus,
@@ -80,13 +77,6 @@
 .search-box:hover > .search-input {
 	width: 180px;
 	padding: 0 6px;
-}
-
-.search-box:hover > .search-btn,
-.search-input:focus + .search-btn,
-.search-input:not(:placeholder-shown) + .search-btn {
-	background: rgb(212, 163, 156);
-	color: rgb(212, 163, 156);
 }
 
 /*--- carousel ---*/
