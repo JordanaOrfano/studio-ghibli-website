@@ -149,6 +149,8 @@
 	background: rgba(23, 26, 23, 0.8);
 	color: rgb(255, 255, 255);
 	transition: 0.4s ease;
+	font-family: 'Jost', sans-serif;
+	font-weight: 600;
 }
 
 .card:hover {
@@ -199,6 +201,9 @@
 	border: 0px solid #ffffff;
 }
 
+h1 {
+	font-family: 'Jost', sans-serif;
+	font-weight: 600;
 }
 
 }
