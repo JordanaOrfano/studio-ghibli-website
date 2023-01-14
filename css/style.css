@@ -1,5 +1,13 @@
+/*========== UNIVERSAL ==========*/
+
 * {
 	font-family: 'Nunito', sans-serif;
+}
+
+/*=== Text ===*/
+h1 {
+	font-family: 'Jost', sans-serif;
+	font-weight: 600;
 }
 
 /*=== Navbar ===*/
@@ -33,7 +41,7 @@
 	transform-origin: bottom center;
 }
 
-/*=== Search box ===*/
+/* Search box */
 .search-box {
 	background: rgb(212, 163, 156);
 	height: 40px;
@@ -78,6 +86,38 @@
 	width: 180px;
 	padding: 0 6px;
 }
+
+/*=== Footer ===*/
+.icon-tabler-brand-twitter:hover,
+.icon-tabler-brand-instagram:hover,
+.icon-tabler-external-link:hover {
+	stroke: rgb(212, 163, 156);
+	transition: 0.3s ease;
+}
+
+/*=== Scrollbar ===*/
+/* Firefox */
+* {
+	scrollbar-width: auto;
+	scrollbar-color: rgb(212, 163, 156) #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: rgb(212, 163, 156);
+	border-radius: 0px;
+	border: 0px solid #ffffff;
+}
+
+/*========== HOME ==========*/
 
 /*=== Carousel ===*/
 .carousel .carousel-indicators button {
@@ -169,38 +209,6 @@
 	}
 }
 
-/*=== Scrollbar ===*/
-/* Firefox */
-* {
-	scrollbar-width: auto;
-	scrollbar-color: rgb(212, 163, 156) #ffffff;
 }
 
-/* Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
-	width: 6px;
-}
-
-*::-webkit-scrollbar-track {
-	background: #ffffff;
-}
-
-*::-webkit-scrollbar-thumb {
-	background-color: rgb(212, 163, 156);
-	border-radius: 0px;
-	border: 0px solid #ffffff;
-}
-
-/*=== Footer ===*/
-.icon-tabler-brand-twitter:hover,
-.icon-tabler-brand-instagram:hover,
-.icon-tabler-external-link:hover {
-	stroke: rgb(212, 163, 156);
-	transition: 0.3s ease;
-}
-
-/*=== Text ===*/
-h1 {
-	font-family: 'Jost', sans-serif;
-	font-weight: 600;
 }
