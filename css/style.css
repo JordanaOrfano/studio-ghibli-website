@@ -12,7 +12,7 @@ h1 {
 
 /*=== Navbar ===*/
 nav {
-	background-color: #fff;
+	background-color: rgb(255, 255, 255);
 }
 
 .navbar-link {
@@ -24,11 +24,11 @@ nav {
 }
 
 .navbar-link:hover {
-	color: rgb(212, 163, 156);
+	color: rgb(97, 155, 151);
 }
 
 .navbar-link:after {
-	background-color: rgb(212, 163, 156);
+	background-color: rgb(97, 155, 151);
 	bottom: 0;
 	content: '';
 	height: 2px;
@@ -47,7 +47,7 @@ nav {
 
 /* Search box */
 .search-box {
-	background: rgb(212, 163, 156);
+	background: rgb(97, 155, 151);
 	height: 40px;
 	border-radius: 50px;
 	padding: 10px;
@@ -59,14 +59,14 @@ nav {
 	background: none;
 	width: 0;
 	padding: 0;
-	color: #fff;
+	color: rgb(255, 255, 255);
 	float: left;
 	font-size: 16px;
 	transition: 0.3s;
 }
 
 .search-input::placeholder {
-	color: rgb(235, 212, 192);
+	color: rgba(255, 255, 255, 0.6);
 }
 
 .search-btn {
@@ -95,7 +95,7 @@ nav {
 .icon-tabler-brand-twitter:hover,
 .icon-tabler-brand-instagram:hover,
 .icon-tabler-external-link:hover {
-	stroke: rgb(212, 163, 156);
+	stroke: rgb(97, 155, 151);
 }
 
 .icon-tabler-brand-twitter,
@@ -108,7 +108,7 @@ nav {
 /* Firefox */
 * {
 	scrollbar-width: auto;
-	scrollbar-color: rgb(212, 163, 156) #ffffff;
+	scrollbar-color: rgb(97, 155, 151) rgb(255, 255, 255);
 }
 
 /* Chrome, Edge, and Safari */
@@ -117,13 +117,13 @@ nav {
 }
 
 *::-webkit-scrollbar-track {
-	background: #ffffff;
+	background: rgb(255, 255, 255);
 }
 
 *::-webkit-scrollbar-thumb {
-	background-color: rgb(212, 163, 156);
+	background-color: rgb(97, 155, 151);
 	border-radius: 0px;
-	border: 0px solid #ffffff;
+	border: 0px solid rgb(255, 255, 255);
 }
 
 /*=== Scroll to top button ===*/
@@ -134,7 +134,7 @@ nav {
 	padding: 1px;
 	border-radius: 50%;
 	border: none;
-	background-color: rgb(212, 163, 156);
+	background-color: rgb(97, 155, 151);
 }
 
 /*========== HOME ==========*/
@@ -219,7 +219,7 @@ nav {
 }
 
 .card-button:hover {
-	background: rgb(212, 163, 156);
+	background: rgb(97, 155, 151);
 	color: rgb(255, 255, 255);
 }
 
@@ -233,7 +233,7 @@ nav {
 .header-img {
 	position: relative;
 	text-align: center;
-	color: white;
+	color: rgb(255, 255, 255);
 }
 
 .header-text {
