@@ -26,36 +26,38 @@
 	</head>
 
 	<body>
-		<header class="pt-3 text-center">
-			<img src="img/Studio_Ghibli_logo.png" class="img-fluid" width="200px" alt="Studio Ghibli logo" />
-		</header>
-
-		<nav class="navbar justify-content-center text-center py-3">
-			<div><a href="index.html" class="navbar-link mx-4 my-2">Home</a></div>
-			<div><a href="about.html" class="navbar-link mx-4 my-2">About</a></div>
-			<div><a href="login.html" class="navbar-link mx-4 my-2">Login</a></div>
-			<div class="search-box mx-4">
-				<input type="text" class="search-input" placeholder="Search" />
-				<a class="search-btn" href="#">
-					<!-- Search Icon -->
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						class="icon icon-tabler icon-tabler-search"
-						width="44"
-						height="44"
-						viewBox="0 0 24 24"
-						stroke-width="1.5"
-						stroke="#ffffff"
-						fill="none"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-					>
-						<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-						<circle cx="10" cy="10" r="7" />
-						<line x1="21" y1="21" x2="15" y2="15" />
-					</svg>
-				</a>
+		<nav class="sticky-top d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center py-2 px-0 px-md-5">
+			<div class="col-md-2 d-flex align-items-center">
+				<a href="index.html"><img src="img/Studio_Ghibli_logo.png" class="img-fluid" width="110px" alt="Studio Ghibli logo" /></a>
 			</div>
+
+			<ul class="nav col-md-10 justify-content-center align-items-center justify-content-md-end list-unstyled">
+				<li><a href="index.html" class="navbar-link mx-4 my-2">Home</a></li>
+				<li><a href="about.html" class="navbar-link mx-4 my-2">About</a></li>
+				<li><a href="login.html" class="navbar-link mx-4 my-2">Login</a></li>
+				<li class="search-box mx-4">
+					<input type="text" class="search-input" placeholder="Search" />
+					<a class="search-btn" href="#">
+						<!-- Search Icon -->
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="icon icon-tabler icon-tabler-search"
+							width="44"
+							height="44"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="#ffffff"
+							fill="none"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+							<circle cx="10" cy="10" r="7" />
+							<line x1="21" y1="21" x2="15" y2="15" />
+						</svg>
+					</a>
+				</li>
+			</ul>
 		</nav>
 
 		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
