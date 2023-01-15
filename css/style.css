@@ -96,6 +96,11 @@ nav {
 .icon-tabler-brand-instagram:hover,
 .icon-tabler-external-link:hover {
 	stroke: rgb(212, 163, 156);
+}
+
+.icon-tabler-brand-twitter,
+.icon-tabler-brand-instagram,
+.icon-tabler-external-link {
 	transition: 0.3s ease;
 }
 
