@@ -209,6 +209,14 @@ h1 {
 	}
 }
 
+/*========== ABOUT ==========*/
+.header-img {
+	position: relative;
+	text-align: center;
+	color: white;
 }
 
+.header-text {
+	position: absolute;
+	bottom: 8px;
 }
