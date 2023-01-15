@@ -121,6 +121,17 @@ nav {
 	border: 0px solid #ffffff;
 }
 
+/*=== Scroll to top button ===*/
+.btn-top {
+	position: fixed;
+	bottom: 22px;
+	right: 22px;
+	padding: 1px;
+	border-radius: 50%;
+	border: none;
+	background-color: rgb(212, 163, 156);
+}
+
 /*========== HOME ==========*/
 
 /*=== Carousel ===*/
