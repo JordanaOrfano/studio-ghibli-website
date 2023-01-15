@@ -5,9 +5,11 @@
 }
 
 /*=== Text ===*/
-h1 {
+h1,
+h2 {
 	font-family: 'Jost', sans-serif;
 	font-weight: 600;
+	font-variant: small-caps;
 }
 
 /*=== Navbar ===*/
@@ -239,4 +241,9 @@ nav {
 .header-text {
 	position: absolute;
 	bottom: 8px;
+}
+
+.quote {
+	border-left: 2px solid rgb(24, 26, 24);
+	font-style: italic;
 }
