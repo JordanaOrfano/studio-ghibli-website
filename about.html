@@ -26,18 +26,18 @@
 	</head>
 
 	<body>
-		<nav class="sticky-top d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center py-2 px-0 px-md-5">
-			<div class="col-md-2 d-flex align-items-center">
+		<nav class="d-flex sticky-top flex-column flex-md-row justify-content-center justify-content-md-between align-items-center py-2 px-0 px-md-5">
+			<div class="d-flex col-md-2 align-items-center">
 				<a href="index.html"><img src="img/Studio_Ghibli_logo.png" class="img-fluid" width="110" alt="Studio Ghibli logo" /></a>
 			</div>
 
-			<ul class="nav col-md-10 justify-content-center align-items-center justify-content-md-end list-unstyled">
-				<li><a href="index.html" class="navbar-link mx-4 my-2">Home</a></li>
-				<li><a href="about.html" class="navbar-link mx-4 my-2">About</a></li>
-				<li><a href="login.html" class="navbar-link mx-4 my-2">Login</a></li>
+			<ul class="nav col-md-10 justify-content-center justify-content-md-end align-items-center list-unstyled">
+				<li><a href="index.html" class="nav__link mx-4 my-2">Home</a></li>
+				<li><a href="about.html" class="nav__link mx-4 my-2">About</a></li>
+				<li><a href="login.html" class="nav__link mx-4 my-2">Login</a></li>
 				<li class="search-box mx-4">
-					<input type="text" class="search-input" placeholder="Search" />
-					<a class="search-btn" href="#">
+					<input type="text" class="search-box__input" placeholder="Search" />
+					<a class="search-box__btn" href="#">
 						<!-- Search Icon -->
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -61,13 +61,13 @@
 		</nav>
 
 		<main>
-			<div class="header-img">
+			<header class="header-img">
 				<picture>
 					<source media="(min-width: 768px)" srcset="img/about/header.jpg" class="img-fluid w-100" alt="Howl's Moving Castle header" />
 					<img src="img/about/header-mobile.jpg" class="img-fluid w-100" alt="Howl's Moving Castle header" />
 				</picture>
-				<h1 class="header-text mx-md-5 mx-3 px-md-5 pb-0 pb-md-2">About Studio Ghibli</h1>
-			</div>
+				<h1 class="header-img__text mx-md-5 mx-3 px-md-5 pb-0 pb-md-2">About Studio Ghibli</h1>
+			</header>
 
 			<div class="mx-md-5 mx-3 px-2 px-md-5 pt-4 pb-1">
 				<p>
@@ -126,7 +126,7 @@
 					life. Unlike Disney films which are often rooted in deep, tragic conflict; conflicts in most Ghibli films do not do the heavy
 					lifting of building narrative but are instead, fleeting and quite simple. The pace of the film is steady with importance given to
 					ordinary and mundane actions: Sophie making hats in Howl's Moving Castle, Ponyo enjoying his meal, Shizuku studying in Whisper of
-					the Heart, Takashi and his wife Matsuke fighting over the TV remote in My Neighbour Yamadas are few of many instances which
+					the Heart, Takashi and his wife Matsuke fighting over the TV remote in My Neighbor Yamadas are few of many instances which
 					celebrate the beauty in mundane.
 				</p>
 				<p>
@@ -147,13 +147,13 @@
 		</main>
 
 		<footer
-			class="d-flex flex-wrap flex-column flex-md-row justify-content-center justify-content-md-between align-items-center py-3 my-2 mt-3 mx-md-5 px-5 border-top"
+			class="d-flex flex-wrap flex-column flex-md-row justify-content-center justify-content-md-between align-items-center py-3 my-4 mx-md-5 px-5 border-top"
 		>
-			<div class="col-md-4 d-flex align-items-center">
+			<div class="d-flex col-md-4 align-items-center">
 				<span class="mb-3 mb-md-0 text-muted">&copy; <span id="copyright-year">2023</span> Studio Ghibli, Inc</span>
 			</div>
 
-			<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+			<ul class="d-flex nav col-md-4 justify-content-end list-unstyled">
 				<li class="ms-3">
 					<a class="text-muted" target="_blank" href="https://twitter.com/ghibliusa"
 						><svg
@@ -217,7 +217,7 @@
 			</ul>
 		</footer>
 
-		<button onclick="scrollToTop()" class="btn-top">
+		<button onclick="scrollToTop()" class="btn__top">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				class="icon icon-tabler icon-tabler-chevron-up"

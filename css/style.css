@@ -2,119 +2,11 @@
 
 * {
 	font-family: 'Nunito', sans-serif;
-}
-
-/*=== Text ===*/
-h1,
-h2 {
-	font-family: 'Jost', sans-serif;
-	font-weight: 600;
-	font-variant: small-caps;
-}
-
-/*=== Navbar ===*/
-nav {
-	background-color: rgb(255, 255, 255);
-	box-shadow: 0px 5px 20px rgba(43, 8, 37, 0.1);
-}
-
-.navbar-link {
-	color: rgb(24, 26, 24);
-	display: inline-block;
-	font-size: 22px;
-	position: relative;
-	text-decoration: none;
-}
-
-.navbar-link:hover {
-	color: rgb(97, 155, 151);
-}
-
-.navbar-link:after {
-	background-color: rgb(97, 155, 151);
-	bottom: 0;
-	content: '';
-	height: 2px;
-	left: 0;
-	position: absolute;
-	transform: scaleX(0);
-	transform-origin: bottom center;
-	transition: transform 0.25s ease-out;
-	width: 100%;
-}
-
-.navbar-link:hover:after {
-	transform: scaleX(1);
-	transform-origin: bottom center;
-}
-
-/* Search box */
-.search-box {
-	background: rgb(97, 155, 151);
-	height: 40px;
-	border-radius: 50px;
-	padding: 10px;
-}
-
-.search-input {
-	outline: none;
-	border: none;
-	background: none;
-	width: 0;
-	padding: 0;
-	color: rgb(255, 255, 255);
-	float: left;
-	font-size: 16px;
-	transition: 0.3s;
-}
-
-.search-input::placeholder {
-	color: rgba(255, 255, 255, 0.6);
-}
-
-.search-btn {
-	float: right;
-	width: 20px;
-	height: 20px;
-	border-radius: 50px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-decoration: none;
-}
-
-.search-input:focus,
-.search-input:not(:placeholder-shown) {
-	width: 180px;
-	padding: 0 6px;
-}
-
-.search-box:hover > .search-input {
-	width: 180px;
-	padding: 0 6px;
-}
-
-/*=== Footer ===*/
-.icon-tabler-brand-twitter:hover,
-.icon-tabler-brand-instagram:hover,
-.icon-tabler-external-link:hover {
-	stroke: rgb(97, 155, 151);
-}
-
-.icon-tabler-brand-twitter,
-.icon-tabler-brand-instagram,
-.icon-tabler-external-link {
-	transition: 0.3s ease;
-}
-
-/*=== Scrollbar ===*/
-/* Firefox */
-* {
+	/*========== Scrollbar ==========*/
 	scrollbar-width: auto;
 	scrollbar-color: rgb(97, 155, 151) rgb(255, 255, 255);
 }
 
-/* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
 	width: 6px;
 }
@@ -129,8 +21,111 @@ nav {
 	border: 0px solid rgb(255, 255, 255);
 }
 
-/*=== Scroll to top button ===*/
-.btn-top {
+/*========== Text ==========*/
+h1,
+h2 {
+	font-family: 'Jost', sans-serif;
+	font-weight: 600;
+	font-variant: small-caps;
+}
+
+/*========== Navbar ==========*/
+nav {
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 5px 20px rgba(43, 8, 37, 0.1);
+}
+
+.nav__link {
+	color: rgb(24, 26, 24);
+	display: inline-block;
+	font-size: 22px;
+	position: relative;
+	text-decoration: none;
+}
+
+.nav__link:hover {
+	color: rgb(97, 155, 151);
+}
+
+.nav__link:after {
+	background-color: rgb(97, 155, 151);
+	bottom: 0;
+	content: '';
+	height: 2px;
+	left: 0;
+	position: absolute;
+	transform: scaleX(0);
+	transform-origin: bottom center;
+	transition: transform 0.25s ease-out;
+	width: 100%;
+}
+
+.nav__link:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom center;
+}
+
+/* Search box */
+.search-box {
+	background: rgb(97, 155, 151);
+	height: 40px;
+	border-radius: 50px;
+	padding: 10px;
+}
+
+.search-box__input {
+	outline: none;
+	border: none;
+	background: none;
+	width: 0;
+	padding: 0;
+	color: rgb(255, 255, 255);
+	float: left;
+	font-size: 16px;
+	transition: 0.3s;
+}
+
+.search-box__input::placeholder {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.search-box__btn {
+	float: right;
+	width: 20px;
+	height: 20px;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+.search-box__input:focus,
+.search-box__input:not(:placeholder-shown) {
+	width: 180px;
+	padding: 0 6px;
+}
+
+.search-box:hover > .search-box__input {
+	width: 180px;
+	padding: 0 6px;
+}
+
+/*========== Footer ==========*/
+.icon-tabler-brand-twitter:hover,
+.icon-tabler-brand-instagram:hover,
+.icon-tabler-external-link:hover {
+	stroke: rgb(97, 155, 151);
+}
+
+.icon-tabler-brand-twitter,
+.icon-tabler-brand-instagram,
+.icon-tabler-external-link {
+	transition: 0.3s ease;
+}
+
+/*========== Scroll to top btn ==========*/
+.btn__top {
 	position: fixed;
 	bottom: 22px;
 	right: 22px;
@@ -142,7 +137,7 @@ nav {
 
 /*========== HOME ==========*/
 
-/*=== Carousel ===*/
+/*========== Carousel ==========*/
 .carousel .carousel-indicators button {
 	border-radius: 100%;
 	height: 7px;
@@ -153,7 +148,7 @@ nav {
 	box-shadow: 0px 5px 20px rgba(43, 8, 37, 0.1);
 }
 
-/*=== Movie cards ===*/
+/*========== Movie cards ==========*/
 .card {
 	width: 16rem;
 	border-radius: 1em;
@@ -179,7 +174,7 @@ nav {
 	transition: 0.5s;
 }
 
-.card-info {
+.card__info {
 	position: absolute;
 	z-index: 3;
 	color: rgb(255, 255, 255);
@@ -191,11 +186,11 @@ nav {
 	display: block;
 }
 
-.card-title {
+.card__title {
 	font-size: 1.2rem;
 }
 
-.card-button {
+.card__button {
 	width: 100%;
 	display: block;
 	padding: 0.5rem;
@@ -220,12 +215,12 @@ nav {
 	border-radius: 4px;
 }
 
-.card:hover .card-info {
+.card:hover .card__info {
 	opacity: 1;
 	transform: translateY(0);
 }
 
-.card-button:hover {
+.card__button:hover {
 	background: rgb(97, 155, 151);
 	color: rgb(255, 255, 255);
 }
@@ -244,7 +239,7 @@ nav {
 	box-shadow: 0px 5px 20px rgba(43, 8, 37, 0.1);
 }
 
-.header-text {
+.header-img__text {
 	position: absolute;
 	bottom: 8px;
 }
