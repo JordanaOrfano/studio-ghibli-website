@@ -90,14 +90,11 @@ nav {
 }
 
 .search-box__btn {
-	float: right;
 	width: 20px;
 	height: 20px;
 	border-radius: 50px;
 	display: flex;
-	justify-content: center;
 	align-items: center;
-	text-decoration: none;
 }
 
 .search-box__input:focus,
