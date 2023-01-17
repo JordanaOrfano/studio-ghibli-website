@@ -1,9 +1,9 @@
-/*========== UNIVERSAL ==========*/
+/*=============== UNIVERSAL ===============*/
 
 * {
-	font-family: 'Nunito', sans-serif;
-	/*========== Scrollbar ==========*/
+	/*=============== Scrollbar ===============*/
 	scrollbar-width: auto;
+	font-family: 'Nunito', sans-serif;
 	scrollbar-color: rgb(97, 155, 151) rgb(255, 255, 255);
 }
 
@@ -17,19 +17,19 @@
 
 *::-webkit-scrollbar-thumb {
 	background-color: rgb(97, 155, 151);
-	border-radius: 0px;
 	border: 0px solid rgb(255, 255, 255);
+	border-radius: 0px;
 }
 
-/*========== Text ==========*/
+/*=============== Text ===============*/
 h1,
 h2 {
 	font-family: 'Jost', sans-serif;
-	font-weight: 600;
 	font-variant: small-caps;
+	font-weight: 600;
 }
 
-/*========== Navbar ==========*/
+/*=============== Navbar ===============*/
 nav {
 	background-color: rgb(255, 255, 255);
 	box-shadow: 0px 5px 20px rgba(43, 8, 37, 0.1);
@@ -68,21 +68,21 @@ nav {
 /* Search box */
 .search-box {
 	background: rgb(97, 155, 151);
-	height: 40px;
 	border-radius: 50px;
+	height: 40px;
 	padding: 10px;
 }
 
 .search-box__input {
-	outline: none;
-	border: none;
 	background: none;
-	width: 0;
-	padding: 0;
+	border: none;
 	color: rgb(255, 255, 255);
 	float: left;
 	font-size: 16px;
+	outline: none;
+	padding: 0;
 	transition: 0.3s;
+	width: 0;
 }
 
 .search-box__input::placeholder {
@@ -90,25 +90,25 @@ nav {
 }
 
 .search-box__btn {
-	width: 20px;
-	height: 20px;
+	align-items: center;
 	border-radius: 50px;
 	display: flex;
-	align-items: center;
+	height: 20px;
+	width: 20px;
 }
 
 .search-box__input:focus,
 .search-box__input:not(:placeholder-shown) {
-	width: 180px;
 	padding: 0 6px;
+	width: 180px;
 }
 
 .search-box:hover > .search-box__input {
-	width: 180px;
 	padding: 0 6px;
+	width: 180px;
 }
 
-/*========== Footer ==========*/
+/*=============== Footer ===============*/
 .icon-tabler-brand-twitter:hover,
 .icon-tabler-brand-instagram:hover,
 .icon-tabler-external-link:hover {
@@ -121,20 +121,20 @@ nav {
 	transition: 0.3s ease;
 }
 
-/*========== Scroll to top btn ==========*/
+/*=============== Scroll to top btn ===============*/
 .btn__top {
-	position: fixed;
-	bottom: 22px;
-	right: 22px;
-	padding: 1px;
-	border-radius: 50%;
-	border: none;
 	background-color: rgb(97, 155, 151);
+	border: none;
+	border-radius: 50%;
+	bottom: 22px;
+	padding: 1px;
+	position: fixed;
+	right: 22px;
 }
 
-/*========== HOME ==========*/
+/*=============== HOME ===============*/
 
-/*========== Carousel ==========*/
+/*=============== Carousel ===============*/
 .carousel .carousel-indicators button {
 	border-radius: 100%;
 	height: 7px;
@@ -145,42 +145,42 @@ nav {
 	box-shadow: 0px 5px 20px rgba(43, 8, 37, 0.1);
 }
 
-/*========== Movie cards ==========*/
+/*=============== Movie cards ===============*/
 .card {
-	width: 16rem;
-	border-radius: 1em;
-	position: relative;
-	display: flex;
 	align-items: flex-start;
-	justify-content: end;
-	transition: 0.4s ease-out;
+	border-radius: 1em;
 	box-shadow: 0px 7px 20px rgba(43, 8, 37, 0.2);
-	margin: 10px;
+	display: flex;
 	font-weight: 500;
+	justify-content: end;
+	margin: 10px;
+	position: relative;
+	transition: 0.4s ease-out;
+	width: 16rem;
 }
 
 .card:before {
 	content: '';
+	display: block;
+	height: 100%;
+	left: 0;
 	position: absolute;
 	top: 0;
-	left: 0;
-	display: block;
-	width: 100%;
-	height: 100%;
-	z-index: 2;
 	transition: 0.5s;
+	width: 100%;
+	z-index: 2;
 }
 
 .card__info {
-	position: absolute;
-	z-index: 3;
 	color: rgb(255, 255, 255);
+	display: block;
 	opacity: 0;
+	padding: 0px 25px;
+	position: absolute;
 	transform: translateY(20%);
 	transition: 0.5s;
-	padding: 0px 25px;
 	width: 100%;
-	display: block;
+	z-index: 3;
 }
 
 .card__title {
@@ -188,18 +188,18 @@ nav {
 }
 
 .card__button {
-	width: 100%;
-	display: block;
-	padding: 0.5rem;
-	margin-bottom: 25px;
-	outline: none;
+	background: rgba(23, 26, 23, 0.8);
 	border: none;
 	border-radius: 4px;
-	background: rgba(23, 26, 23, 0.8);
 	color: rgb(255, 255, 255);
-	transition: 0.4s ease;
+	display: block;
 	font-family: 'Jost', sans-serif;
 	font-weight: 600;
+	margin-bottom: 25px;
+	outline: none;
+	padding: 0.5rem;
+	transition: 0.4s ease;
+	width: 100%;
 }
 
 .card:hover {
@@ -207,9 +207,9 @@ nav {
 }
 
 .card:hover:before {
-	opacity: 1;
 	background-color: rgba(24, 26, 24, 0.35);
 	border-radius: 4px;
+	opacity: 1;
 }
 
 .card:hover .card__info {
@@ -228,17 +228,17 @@ nav {
 	}
 }
 
-/*========== ABOUT ==========*/
+/*=============== ABOUT ===============*/
 .header-img {
+	box-shadow: 0px 5px 20px rgba(43, 8, 37, 0.1);
+	color: rgb(255, 255, 255);
 	position: relative;
 	text-align: center;
-	color: rgb(255, 255, 255);
-	box-shadow: 0px 5px 20px rgba(43, 8, 37, 0.1);
 }
 
 .header-img__text {
-	position: absolute;
 	bottom: 8px;
+	position: absolute;
 }
 
 .quote {
