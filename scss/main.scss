@@ -142,14 +142,14 @@ nav {
 /*=============== HOME ===============*/
 
 /*=============== Carousel ===============*/
-.carousel .carousel-indicators button {
-	border-radius: $border-radius-round;
-	height: 7px;
-	width: 7px;
-}
-
 .carousel {
 	box-shadow: $box-shadow;
+
+	& .carousel-indicators button {
+		border-radius: $border-radius-round;
+		height: 7px;
+		width: 7px;
+	}
 }
 
 /*=============== Movie cards ===============*/
@@ -165,6 +165,11 @@ nav {
 
 	&:hover {
 		transform: translateY(2%);
+
+		& .card__info {
+			opacity: 1;
+			transform: translateY(0);
+		}
 	}
 
 	&:before {
@@ -206,14 +211,8 @@ nav {
 
 		&:hover {
 			background: $primary-color;
-			color: #fff;
 		}
 	}
-}
-
-.card:hover .card__info {
-	opacity: 1;
-	transform: translateY(0);
 }
 
 @media only screen and (max-width: 768px) {
