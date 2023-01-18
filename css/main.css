@@ -234,6 +234,11 @@ nav {
   color: #ffffff;
 }
 
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 18rem;
+  }
+}
 @media only screen and (max-width: 425px) {
   .card {
     width: 22rem;
