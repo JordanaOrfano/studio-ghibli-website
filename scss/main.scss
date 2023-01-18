@@ -1,0 +1,245 @@
+@import './variables';
+
+/*=============== UNIVERSAL ===============*/
+
+* {
+	/*=============== Scrollbar ===============*/
+	scrollbar-width: auto;
+	font-family: 'Nunito', sans-serif;
+	scrollbar-color: $primary-color #ffffff;
+}
+
+*::-webkit-scrollbar {
+	width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+	background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: $primary-color;
+	border: 0px solid #ffffff;
+	border-radius: 0px;
+}
+
+/*=============== Text ===============*/
+h1,
+h2 {
+	font-family: 'Jost', sans-serif;
+	font-variant: small-caps;
+	font-weight: 600;
+}
+
+/*=============== Navbar ===============*/
+nav {
+	background-color: #ffffff;
+	box-shadow: $box-shadow;
+}
+
+.nav__link {
+	color: rgb(24, 26, 24);
+	display: inline-block;
+	font-size: 1.3rem;
+	position: relative;
+	text-decoration: none;
+}
+
+.nav__link:hover {
+	color: $primary-color;
+}
+
+.nav__link:after {
+	background-color: $primary-color;
+	bottom: 0;
+	content: '';
+	height: 2px;
+	left: 0;
+	position: absolute;
+	transform: scaleX(0);
+	transform-origin: bottom center;
+	transition: transform 0.25s ease-out;
+	width: 100%;
+}
+
+.nav__link:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom center;
+}
+
+/* Search box */
+.search-box {
+	background: $primary-color;
+	border-radius: 50px;
+	height: 40px;
+	padding: 10px;
+}
+
+.search-box__input {
+	background: none;
+	border: none;
+	color: #ffffff;
+	float: left;
+	font-size: 16px;
+	outline: none;
+	padding: 0;
+	transition: 0.3s;
+	width: 0;
+}
+
+.search-box__input::placeholder {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.search-box__btn {
+	align-items: center;
+	border-radius: $border-radius-round;
+	display: flex;
+	height: 20px;
+	width: 20px;
+}
+
+.search-box__input:focus,
+.search-box__input:not(:placeholder-shown),
+.search-box:hover > .search-box__input {
+	padding: 0 6px;
+	width: 180px;
+}
+
+/*=============== Footer ===============*/
+.icon-tabler-brand-twitter:hover,
+.icon-tabler-brand-instagram:hover,
+.icon-tabler-external-link:hover {
+	stroke: $primary-color;
+}
+
+.icon-tabler-brand-twitter,
+.icon-tabler-brand-instagram,
+.icon-tabler-external-link {
+	transition: 0.3s;
+}
+
+/*=============== Scroll to top btn ===============*/
+.btn__top {
+	background-color: $primary-color;
+	border: none;
+	border-radius: $border-radius-round;
+	bottom: 22px;
+	padding: 1px;
+	position: fixed;
+	right: 22px;
+}
+
+/*=============== HOME ===============*/
+
+/*=============== Carousel ===============*/
+.carousel .carousel-indicators button {
+	border-radius: $border-radius-round;
+	height: 7px;
+	width: 7px;
+}
+
+.carousel {
+	box-shadow: $box-shadow;
+}
+
+/*=============== Movie cards ===============*/
+.card {
+	align-items: flex-start;
+	border-radius: 1em;
+	box-shadow: $box-shadow;
+	display: flex;
+	font-weight: 500;
+	justify-content: end;
+	margin: 10px;
+	position: relative;
+	transition: 0.4s ease-out;
+	width: 16rem;
+}
+
+.card:before {
+	content: '';
+	display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	transition: 0.5s;
+	width: 100%;
+	z-index: 2;
+}
+
+.card__info {
+	color: #ffffff;
+	display: block;
+	opacity: 0;
+	padding: 0px 25px;
+	position: absolute;
+	transform: translateY(20%);
+	transition: 0.5s;
+	width: 100%;
+	z-index: 3;
+}
+
+.card__title {
+	font-size: 1.2rem;
+}
+
+.card__button {
+	background: rgba(23, 26, 23, 0.8);
+	border: none;
+	border-radius: 4px;
+	color: #ffffff;
+	display: block;
+	font-family: 'Jost', sans-serif;
+	font-weight: 600;
+	margin-bottom: 25px;
+	outline: none;
+	padding: 0.5rem;
+	transition: 0.4s ease;
+	width: 100%;
+}
+
+.card:hover {
+	transform: translateY(2%);
+}
+
+.card:hover:before {
+	background-color: rgba(24, 26, 24, 0.35);
+	border-radius: 4px;
+	opacity: 1;
+}
+
+.card:hover .card__info {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.card__button:hover {
+	background: $primary-color;
+	color: #ffffff;
+}
+
+@media only screen and (max-width: 425px) {
+	.card {
+		width: 22rem;
+	}
+}
+
+/*=============== ABOUT ===============*/
+.header-img {
+	box-shadow: $box-shadow;
+	color: #ffffff;
+	position: relative;
+	text-align: center;
+}
+
+.header-img__text {
+	bottom: 8px;
+	position: absolute;
+}
+
+.quote {
+	border-left: 2px solid rgb(24, 26, 24);
+	font-style: italic;
+}
