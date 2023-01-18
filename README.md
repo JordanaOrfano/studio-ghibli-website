@@ -1,5 +1,13 @@
 # The Studio Ghibli Collection
 
+## Built with
+
+-   HTML
+-   CSS
+-   JavaScript
+-   Bootstrap
+-   SASS
+
 ## Credits
 
 ### Images
