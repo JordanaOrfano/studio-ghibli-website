@@ -277,6 +277,10 @@ nav {
   background-image: url("../img/home/modal/modal-kiki.jpg");
 }
 
+#modalSpiritedAway {
+  background-image: url("../img/home/modal/modal-spiritedaway.jpg");
+}
+
 .btn-close:focus {
   box-shadow: none;
 }
