@@ -31,7 +31,7 @@ h2 {
 /*=============== Navbar ===============*/
 nav {
   background-color: #fff;
-  box-shadow: 0px 5px 20px rgba(43, 8, 37, 0.1);
+  box-shadow: 0px 5px 20px rgba(24, 26, 24, 0.1);
 }
 
 .nav__link {
@@ -138,7 +138,7 @@ nav {
 /*=============== HOME ===============*/
 /*=============== Carousel ===============*/
 .carousel {
-  box-shadow: 0px 5px 20px rgba(43, 8, 37, 0.1);
+  box-shadow: 0px 5px 20px rgba(24, 26, 24, 0.1);
 }
 .carousel .carousel-indicators button {
   border-radius: 100%;
@@ -149,7 +149,7 @@ nav {
 /*=============== Movie cards ===============*/
 .card {
   align-items: flex-start;
-  box-shadow: 0px 5px 20px rgba(43, 8, 37, 0.1);
+  box-shadow: 0px 5px 20px rgba(24, 26, 24, 0.1);
   display: flex;
   font-weight: 500;
   justify-content: end;
@@ -196,15 +196,15 @@ nav {
 .card__button {
   background: rgba(23, 26, 23, 0.8);
   border: none;
-  border-radius: 4px;
   color: #fff;
-  display: block;
   font-family: "Jost", sans-serif;
   font-weight: 600;
   padding: 0.5rem;
   transition: 0.4s;
-  width: 100%;
+  border-radius: 4px;
   margin-bottom: 25px;
+  display: block;
+  width: 100%;
 }
 .card__button:hover {
   background: rgb(97, 155, 151);
@@ -222,7 +222,7 @@ nav {
 }
 /*=============== ABOUT ===============*/
 .header-img {
-  box-shadow: 0px 5px 20px rgba(43, 8, 37, 0.1);
+  box-shadow: 0px 5px 20px rgba(24, 26, 24, 0.1);
   color: #fff;
   position: relative;
   text-align: center;

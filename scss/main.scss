@@ -3,15 +3,16 @@
 @mixin button {
 	background: rgba(23, 26, 23, 0.8);
 	border: none;
-	border-radius: 4px;
 	color: #fff;
-	display: block;
 	font-family: 'Jost', sans-serif;
 	font-weight: 600;
 	padding: 0.5rem;
 	transition: 0.4s;
-	width: 100%;
+	&:hover {
+		background: $primary-color;
+	}
 }
+
 /*=============== UNIVERSAL ===============*/
 
 * {
@@ -207,11 +208,10 @@ nav {
 
 	&__button {
 		@include button;
+		border-radius: 4px;
 		margin-bottom: 25px;
-
-		&:hover {
-			background: $primary-color;
-		}
+		display: block;
+		width: 100%;
 	}
 }
 
