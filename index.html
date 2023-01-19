@@ -125,11 +125,142 @@
 		<main class="mx-lg-5 mx-3 px-md-5 pt-4 pb-1">
 			<h1>Movies</h1>
 			<div class="d-flex justify-content-center flex-wrap">
+				<!---------- Kiki's delivery service ------------>
 				<div class="card border-0">
 					<img src="img/home/cards/cards-kiki.jpg" class="card-img" alt="Kiki's Delivery Service poster" />
 					<div class="card__info">
 						<p class="card__title">Kiki's Delivery Service</p>
 						<button type="button" class="card__button">Read More</button>
+					</div>
+				</div>
+
+				<div class="modal fade" id="modalKiki" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-3" id="exampleModalLabel">Kiki's Delivery Service</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							</div>
+
+							<div class="modal-body">
+								<p>
+									<b>Kanji:</b> ハウルの動く城<br />
+									<b>Director:</b> Hayao Miyazaki<br />
+									<b>Year:</b> 2004
+								</p>
+								<p>
+									Kiki is thirteen years old, right at the age when a young witch in training is supposed to travel to another city
+									and strike out for herself. It's a real test of responsibility and independence, and if Kiki can handle it for a
+									year, she'll be ready to undergo the rest of her education.
+								</p>
+								<p>
+									So, with only a little money, her pet cat/confidante Jiji, and her mother's broom, Kiki makes her way to a big
+									city by the sea, where witches haven't been seen for years and the demand for them isn't exactly great. Being
+									resourceful, Kiki starts the kind of business most suitable for a witch who can fly on a broom: an airborne
+									package delivery service.
+								</p>
+
+								<div class="btn-group mt-4 d-flex justify-content-center">
+									<a href="https://www.imdb.com/title/tt0097814/" target="_blank"
+										><button type="button" class="modal__button px-3 rounded-start">IMDb</button></a
+									>
+									<button
+										type="button"
+										class="modal__button px-2"
+										data-bs-toggle="tooltip"
+										data-bs-placement="top"
+										title="Add to watchlist"
+									>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											class="icon icon-tabler icon-tabler-list-check"
+											width="20"
+											height="20"
+											viewBox="0 0 24 24"
+											stroke-width="1.5"
+											stroke="#fff"
+											fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										>
+											<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+											<path d="M3.5 5.5l1.5 1.5l2.5 -2.5" />
+											<path d="M3.5 11.5l1.5 1.5l2.5 -2.5" />
+											<path d="M3.5 17.5l1.5 1.5l2.5 -2.5" />
+											<line x1="11" y1="6" x2="20" y2="6" />
+											<line x1="11" y1="12" x2="20" y2="12" />
+											<line x1="11" y1="18" x2="20" y2="18" />
+										</svg>
+									</button>
+									<button
+										type="button"
+										class="modal__button px-2"
+										data-bs-toggle="tooltip"
+										data-bs-placement="top"
+										title="Mark watched"
+									>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											class="icon icon-tabler icon-tabler-square"
+											width="20"
+											height="20"
+											viewBox="0 0 24 24"
+											stroke-width="1.5"
+											stroke="#fff"
+											fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										>
+											<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+											<rect x="4" y="4" width="16" height="16" rx="2" />
+										</svg>
+									</button>
+
+									<div class="dropup">
+										<button
+											type="button"
+											class="modal__button dropdown-toggle px-3 rounded-end"
+											data-bs-toggle="dropdown"
+											aria-expanded="false"
+										>
+											Watch on
+										</button>
+										<ul class="dropdown-menu">
+											<li>
+												<a
+													class="dropdown-item"
+													target="_blank"
+													href="https://www.crunchyroll.com/library/Kikis_Delivery_Service"
+													>Crunchyroll</a
+												>
+											</li>
+											<li>
+												<a
+													class="dropdown-item"
+													target="_blank"
+													href="https://www.netflix.com/watch/60027106?trackId=255824129&tctx=0,0,NAPA@@%7C9d77a0cc-133b-4914-9055-2e9af5933afb-295193370_titles/1//kiki/0/0,NAPA@@%7C9d77a0cc-133b-4914-9055-2e9af5933afb-295193370_titles/1//kiki/0/0,unknown,,9d77a0cc-133b-4914-9055-2e9af5933afb-295193370%7C1,,,Video:60027106"
+													>Netflix</a
+												>
+											</li>
+											<li>
+												<a
+													class="dropdown-item"
+													target="_blank"
+													href="https://9anime.to/watch/kikis-delivery-service.2oj2/ep-full"
+													>9anime</a
+												>
+											</li>
+											<li><hr class="dropdown-divider" /></li>
+											<li>
+												<a class="dropdown-item" target="_blank" href="https://www.youtube.com/watch?v=4bG17OYs-GA"
+													>Trailer</a
+												>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 

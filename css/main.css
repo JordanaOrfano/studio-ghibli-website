@@ -228,6 +228,47 @@ nav {
     width: 22rem;
   }
 }
+/*=============== Modal ===============*/
+.modal {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modal-content {
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 8px 32px 0 rgba(24, 26, 24, 0.3);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+.modal__button {
+  background: rgba(23, 26, 23, 0.8);
+  border: none;
+  color: #fff;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  padding: 0.5rem;
+  transition: 0.4s;
+}
+.modal__button:hover {
+  background: rgb(97, 155, 151);
+}
+
+.dropdown-menu {
+  min-width: inherit;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+  background: rgb(97, 155, 151);
+  color: rgb(255, 255, 255);
+}
+
+#modalKiki {
+  background-image: url("../img/home/modal/majo011.jpg");
+}
+
+.btn-close:focus {
+  box-shadow: none;
+}
+
 /*=============== ABOUT ===============*/
 .header-img {
   box-shadow: 0px 5px 20px rgba(24, 26, 24, 0.1);
