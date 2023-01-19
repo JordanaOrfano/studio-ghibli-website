@@ -209,12 +209,24 @@ nav {
   font-weight: 600;
   padding: 0.5rem;
   transition: 0.4s;
-  border-radius: 4px;
   margin-bottom: 25px;
-  display: block;
+  display: inline-block;
   width: 100%;
 }
 .card__button:hover {
+  background: rgb(97, 155, 151);
+}
+.card__button--sm {
+  background: rgba(23, 26, 23, 0.8);
+  border: none;
+  color: #fff;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  padding: 0.5rem;
+  transition: 0.4s;
+  margin-bottom: 25px;
+}
+.card__button--sm:hover {
   background: rgb(97, 155, 151);
 }
 

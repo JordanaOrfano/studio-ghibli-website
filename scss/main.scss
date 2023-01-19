@@ -211,10 +211,13 @@ nav {
 
 	&__button {
 		@include button;
-		border-radius: 4px;
 		margin-bottom: 25px;
-		display: block;
+		display: inline-block;
 		width: 100%;
+		&--sm {
+			@include button;
+			margin-bottom: 25px;
+		}
 	}
 }
 
