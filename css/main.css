@@ -20,6 +20,14 @@
   border-radius: 0px;
 }
 
+::-moz-selection {
+  background: rgba(97, 155, 151, 0.5);
+}
+
+::selection {
+  background: rgba(97, 155, 151, 0.5);
+}
+
 /*=============== Text ===============*/
 h1,
 h2 {
