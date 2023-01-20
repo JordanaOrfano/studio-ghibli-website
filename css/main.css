@@ -304,6 +304,9 @@ nav {
 #modalArrietty {
   background-image: url("../img/home/modal/modal-arrietty.jpg");
 }
+#modalPonyo {
+  background-image: url("../img/home/modal/modal-ponyo.jpg");
+}
 
 /*=============== ABOUT ===============*/
 .header-img {
