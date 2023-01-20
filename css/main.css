@@ -307,6 +307,9 @@ nav {
 #modalPonyo {
   background-image: url("../img/home/modal/modal-ponyo.jpg");
 }
+#modalGraveFireflies {
+  background-image: url("../img/home/modal/modal-gravefireflies.jpg");
+}
 
 /*=============== ABOUT ===============*/
 .header-img {
