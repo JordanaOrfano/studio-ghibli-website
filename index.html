@@ -1373,11 +1373,179 @@
 					</div>
 				</div>
 
+				<!---------- The Tale of The Princess Kaguya ------------>
 				<div class="card border-0">
 					<img src="img/home/cards/cards-kaguya.jpg" class="card-img" alt="The Tale of The Princess Kaguya poster" />
 					<div class="card__info">
 						<p class="card__title">The Tale of The Princess Kaguya</p>
-						<button type="button" class="card__button">Read More</button>
+						<div class="btn-group d-flex">
+							<button type="button" class="card__button rounded-start" data-bs-toggle="modal" data-bs-target="#modalKaguya">
+								Read More</button
+							><button
+								type="button"
+								class="card__button--sm px-2"
+								data-bs-toggle="tooltip"
+								data-bs-placement="top"
+								title="Add to watchlist"
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-list"
+									width="20"
+									height="20"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="#fff"
+									fill="none"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+									<line x1="9" y1="6" x2="20" y2="6" />
+									<line x1="9" y1="12" x2="20" y2="12" />
+									<line x1="9" y1="18" x2="20" y2="18" />
+									<line x1="5" y1="6" x2="5" y2="6.01" />
+									<line x1="5" y1="12" x2="5" y2="12.01" />
+									<line x1="5" y1="18" x2="5" y2="18.01" />
+								</svg>
+							</button>
+							<button
+								type="button"
+								class="card__button--sm rounded-end px-2"
+								data-bs-toggle="tooltip"
+								data-bs-placement="top"
+								title="Mark watched"
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-square"
+									width="20"
+									height="20"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="#fff"
+									fill="none"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+									<rect x="4" y="4" width="16" height="16" rx="2" />
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="modalKaguya" tabindex="-1">
+					<div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-3">The Tale of The Princess Kaguya</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+							</div>
+
+							<div class="modal-body">
+								<p>
+									<b>Kanji:</b> かぐや姫の物語<br />
+									<b>Director:</b> Isao Takahata<br />
+									<b>Year:</b> 2013
+								</p>
+								<p>
+									Deep in the countryside, Okina works as a bamboo cutter in a forest, chopping away at the hollow plants day after
+									day. One day, he discovers a small baby inside a glowing shoot. He immediately takes her home, convinced that she
+									is a princess sent to Earth as a divine blessing from heaven. Okina and his wife Ouna take it upon themselves to
+									raise the infant as their own, watching over her as she quickly grows into an energetic young girl.
+								</p>
+
+								<div class="btn-group mt-4 d-flex justify-content-center">
+									<a href="https://www.imdb.com/title/tt2576852/" target="_blank"
+										><button type="button" class="modal__button px-3 rounded-start">IMDb</button></a
+									>
+									<button
+										type="button"
+										class="modal__button px-2"
+										data-bs-toggle="tooltip"
+										data-bs-placement="top"
+										title="Add to watchlist"
+									>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											class="icon icon-tabler icon-tabler-list"
+											width="20"
+											height="20"
+											viewBox="0 0 24 24"
+											stroke-width="1.5"
+											stroke="#fff"
+											fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										>
+											<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+											<line x1="9" y1="6" x2="20" y2="6" />
+											<line x1="9" y1="12" x2="20" y2="12" />
+											<line x1="9" y1="18" x2="20" y2="18" />
+											<line x1="5" y1="6" x2="5" y2="6.01" />
+											<line x1="5" y1="12" x2="5" y2="12.01" />
+											<line x1="5" y1="18" x2="5" y2="18.01" />
+										</svg>
+									</button>
+									<button
+										type="button"
+										class="modal__button px-2"
+										data-bs-toggle="tooltip"
+										data-bs-placement="top"
+										title="Mark watched"
+									>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											class="icon icon-tabler icon-tabler-square"
+											width="20"
+											height="20"
+											viewBox="0 0 24 24"
+											stroke-width="1.5"
+											stroke="#fff"
+											fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										>
+											<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+											<rect x="4" y="4" width="16" height="16" rx="2" />
+										</svg>
+									</button>
+
+									<div class="dropup">
+										<button
+											type="button"
+											class="modal__button dropdown-toggle px-3 rounded-end"
+											data-bs-toggle="dropdown"
+											aria-expanded="false"
+										>
+											Watch on
+										</button>
+										<ul class="dropdown-menu">
+											<li>
+												<a class="dropdown-item disabled" target="_blank" href="#">Crunchyroll</a>
+											</li>
+											<li>
+												<a class="dropdown-item" target="_blank" href="https://www.netflix.com/title/80013552">Netflix</a>
+											</li>
+											<li>
+												<a
+													class="dropdown-item"
+													target="_blank"
+													href="https://9anime.to/watch/the-tale-of-the-princess-kaguya.qx3j/ep-full"
+													>9anime</a
+												>
+											</li>
+											<li><hr class="dropdown-divider" /></li>
+											<li>
+												<a class="dropdown-item" target="_blank" href="https://youtu.be/W71mtorCZDw">Trailer</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
