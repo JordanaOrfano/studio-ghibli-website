@@ -266,17 +266,20 @@ nav {
 	}
 }
 
-#modalKiki {
-	background-image: url('../img/home/modal/modal-kiki.jpg');
-}
-#modalSpiritedAway {
-	background-image: url('../img/home/modal/modal-spiritedaway.jpg');
-}
-
 .btn-close:focus {
 	box-shadow: none;
 }
 
+#modal {
+	&Kiki {
+		background-image: url('../img/home/modal/modal-kiki.jpg');
+	}
+	&SpiritedAway {
+		background-image: url('../img/home/modal/modal-spiritedaway.jpg');
+	}
+	&Howl {
+		background-image: url('../img/home/modal/modal-howl.jpg');
+	}
 /*=============== ABOUT ===============*/
 .header-img {
 	box-shadow: $box-shadow;
