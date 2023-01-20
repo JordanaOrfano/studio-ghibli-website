@@ -1,4 +1,8 @@
 /*=============== UNIVERSAL ===============*/
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   /*=============== Scrollbar ===============*/
   scrollbar-width: auto;
