@@ -273,6 +273,10 @@ nav {
   color: rgb(255, 255, 255);
 }
 
+.btn-close:focus {
+  box-shadow: none;
+}
+
 #modalKiki {
   background-image: url("../img/home/modal/modal-kiki.jpg");
 }
@@ -281,8 +285,8 @@ nav {
   background-image: url("../img/home/modal/modal-spiritedaway.jpg");
 }
 
-.btn-close:focus {
-  box-shadow: none;
+#modalHowl {
+  background-image: url("../img/home/modal/modal-howl.jpg");
 }
 
 /*=============== ABOUT ===============*/
