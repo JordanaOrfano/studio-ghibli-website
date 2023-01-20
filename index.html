@@ -1023,11 +1023,178 @@
 					</div>
 				</div>
 
+				<!---------- Princess Mononoke ------------>
 				<div class="card border-0">
 					<img src="img/home/cards/cards-mononoke.jpg" class="card-img" alt="Princess Mononoke poster" />
 					<div class="card__info">
 						<p class="card__title">Princess Mononoke</p>
-						<button type="button" class="card__button">Read More</button>
+						<div class="btn-group d-flex">
+							<button type="button" class="card__button rounded-start" data-bs-toggle="modal" data-bs-target="#modalMononoke">
+								Read More</button
+							><button
+								type="button"
+								class="card__button--sm px-2"
+								data-bs-toggle="tooltip"
+								data-bs-placement="top"
+								title="Add to watchlist"
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-list"
+									width="20"
+									height="20"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="#fff"
+									fill="none"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+									<line x1="9" y1="6" x2="20" y2="6" />
+									<line x1="9" y1="12" x2="20" y2="12" />
+									<line x1="9" y1="18" x2="20" y2="18" />
+									<line x1="5" y1="6" x2="5" y2="6.01" />
+									<line x1="5" y1="12" x2="5" y2="12.01" />
+									<line x1="5" y1="18" x2="5" y2="18.01" />
+								</svg>
+							</button>
+							<button
+								type="button"
+								class="card__button--sm rounded-end px-2"
+								data-bs-toggle="tooltip"
+								data-bs-placement="top"
+								title="Mark watched"
+							>
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-square"
+									width="20"
+									height="20"
+									viewBox="0 0 24 24"
+									stroke-width="1.5"
+									stroke="#fff"
+									fill="none"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								>
+									<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+									<rect x="4" y="4" width="16" height="16" rx="2" />
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="modal fade" id="modalMononoke" tabindex="-1">
+					<div class="modal-dialog modal-dialog-centered">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h1 class="modal-title fs-3">Princess Mononoke</h1>
+								<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+							</div>
+
+							<div class="modal-body">
+								<p>
+									<b>Kanji:</b> もののけ姫<br />
+									<b>Director:</b> Hayao Miyazaki<br />
+									<b>Year:</b> 1997
+								</p>
+								<p>
+									While fighting to save his village from the attack of a demon-god, Ashitaka comes in contact with it and is
+									inflicted with a deadly curse. In his search for a cure he is forced to leave his village forever and journey to
+									the forest inhabited by animal gods. There, he finds himself in the middle of a war between the forest gods and a
+									village led by Lady Eboshi.
+								</p>
+
+								<div class="btn-group mt-4 d-flex justify-content-center">
+									<a href="https://www.imdb.com/title/tt0119698/" target="_blank"
+										><button type="button" class="modal__button px-3 rounded-start">IMDb</button></a
+									>
+									<button
+										type="button"
+										class="modal__button px-2"
+										data-bs-toggle="tooltip"
+										data-bs-placement="top"
+										title="Add to watchlist"
+									>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											class="icon icon-tabler icon-tabler-list"
+											width="20"
+											height="20"
+											viewBox="0 0 24 24"
+											stroke-width="1.5"
+											stroke="#fff"
+											fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										>
+											<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+											<line x1="9" y1="6" x2="20" y2="6" />
+											<line x1="9" y1="12" x2="20" y2="12" />
+											<line x1="9" y1="18" x2="20" y2="18" />
+											<line x1="5" y1="6" x2="5" y2="6.01" />
+											<line x1="5" y1="12" x2="5" y2="12.01" />
+											<line x1="5" y1="18" x2="5" y2="18.01" />
+										</svg>
+									</button>
+									<button
+										type="button"
+										class="modal__button px-2"
+										data-bs-toggle="tooltip"
+										data-bs-placement="top"
+										title="Mark watched"
+									>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											class="icon icon-tabler icon-tabler-square"
+											width="20"
+											height="20"
+											viewBox="0 0 24 24"
+											stroke-width="1.5"
+											stroke="#fff"
+											fill="none"
+											stroke-linecap="round"
+											stroke-linejoin="round"
+										>
+											<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+											<rect x="4" y="4" width="16" height="16" rx="2" />
+										</svg>
+									</button>
+
+									<div class="dropup">
+										<button
+											type="button"
+											class="modal__button dropdown-toggle px-3 rounded-end"
+											data-bs-toggle="dropdown"
+											aria-expanded="false"
+										>
+											Watch on
+										</button>
+										<ul class="dropdown-menu">
+											<li>
+												<a class="dropdown-item" target="_blank" href="https://www.crunchyroll.com/library/Princess_Mononoke"
+													>Crunchyroll</a
+												>
+											</li>
+											<li>
+												<a class="dropdown-item" target="_blank" href="https://www.netflix.com/title/70293674">Netflix</a>
+											</li>
+											<li>
+												<a class="dropdown-item" target="_blank" href="https://9anime.to/watch/princess-mononoke.yk8x/ep-full"
+													>9anime</a
+												>
+											</li>
+											<li><hr class="dropdown-divider" /></li>
+											<li>
+												<a class="dropdown-item" target="_blank" href="https://youtu.be/4OiMOHRDs14">Trailer</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
