@@ -341,6 +341,9 @@ nav {
 #modalTheCatReturns {
   background-image: url("../img/home/modal/modal-thecatreturns.jpg");
 }
+#modalPomPoko {
+  background-image: url("../img/home/modal/modal-pompoko.jpg");
+}
 
 /*=============== ABOUT ===============*/
 .header-img {
