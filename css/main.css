@@ -317,6 +317,9 @@ nav {
 #modalTalesFromEarthsea {
   background-image: url("../img/home/modal/modal-talesfromearthsea.jpg");
 }
+#modalWhisper {
+  background-image: url("../img/home/modal/modal-whisper.jpg");
+}
 
 /*=============== ABOUT ===============*/
 .header-img {
