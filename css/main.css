@@ -329,6 +329,9 @@ nav {
 #modalPoppyHill {
   background-image: url("../img/home/modal/modal-poppyhill.jpg");
 }
+#modalCastleSky {
+  background-image: url("../img/home/modal/modal-castlesky.jpg");
+}
 
 /*=============== ABOUT ===============*/
 .header-img {
