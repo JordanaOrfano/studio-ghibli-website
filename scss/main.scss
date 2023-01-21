@@ -14,10 +14,10 @@
 }
 
 /*=============== UNIVERSAL ===============*/
-
 html {
 	scroll-behavior: smooth;
 }
+
 * {
 	/*=============== Scrollbar ===============*/
 	scrollbar-width: auto;
@@ -237,8 +237,11 @@ nav {
 	}
 }
 
-/*=============== Modal ===============*/
+.is-hidden {
+	display: none;
+}
 
+/*=============== Modal ===============*/
 .modal {
 	background-position: center;
 	background-repeat: no-repeat;

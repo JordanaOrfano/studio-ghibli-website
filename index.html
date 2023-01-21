@@ -37,10 +37,9 @@
 				<li><a href="about.html" class="nav__link mx-3 my-2">About</a></li>
 				<li><a href="login.html" class="nav__link mx-3 my-2">Login</a></li>
 				<li class="search-box mx-3">
-					<input type="text" class="search-box__input" placeholder="Search" />
-					<a class="search-box__btn" href="#">
-						<!-- Search Icon -->
-						<svg
+					<input type="text" class="search-box__input" id="searchbox" oninput="liveSearch()" placeholder="Search" />
+					<span class="search-box__btn"
+						><svg
 							xmlns="http://www.w3.org/2000/svg"
 							class="icon icon-tabler icon-tabler-search"
 							width="44"
@@ -54,9 +53,8 @@
 						>
 							<path stroke="none" d="M0 0h24v24H0z" fill="none" />
 							<circle cx="10" cy="10" r="7" />
-							<line x1="21" y1="21" x2="15" y2="15" />
-						</svg>
-					</a>
+							<line x1="21" y1="21" x2="15" y2="15" /></svg
+					></span>
 				</li>
 			</ul>
 		</nav>
