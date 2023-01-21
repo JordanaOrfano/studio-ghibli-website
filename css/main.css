@@ -323,6 +323,9 @@ nav {
 #modalPorco {
   background-image: url("../img/home/modal/modal-porco.jpg");
 }
+#modalOnlyYesterday {
+  background-image: url("../img/home/modal/modal-onlyyesterday.jpg");
+}
 
 /*=============== ABOUT ===============*/
 .header-img {
