@@ -344,6 +344,9 @@ nav {
 #modalPomPoko {
   background-image: url("../img/home/modal/modal-pompoko.jpg");
 }
+#modalNeighborsYamadas {
+  background-image: url("../img/home/modal/modal-neighborsyamadas.jpg");
+}
 
 /*=============== ABOUT ===============*/
 .header-img {
