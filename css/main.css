@@ -347,6 +347,9 @@ nav {
 #modalNeighborsYamadas {
   background-image: url("../img/home/modal/modal-neighborsyamadas.jpg");
 }
+#modalEarwig {
+  background-image: url("../img/home/modal/modal-earwig.jpg");
+}
 
 /*=============== ABOUT ===============*/
 .header-img {
