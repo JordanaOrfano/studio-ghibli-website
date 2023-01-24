@@ -370,4 +370,34 @@ nav {
 .quote {
   border-left: 2px solid rgb(24, 26, 24);
   font-style: italic;
+/*=============== CONTACT ===============*/
+.contact input:focus,
+.contact textarea:focus {
+  box-shadow: none;
+  border-color: rgb(97, 155, 151);
+}
+.contact__button {
+  background: rgba(23, 26, 23, 0.8);
+  border: none;
+  color: #fff;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  padding: 0.5rem;
+  transition: 0.4s;
+  width: 100%;
+}
+.contact__button:hover {
+  background: rgb(97, 155, 151);
+}
+.contact .icon-tabler {
+  transition: 0.3s;
+}
+.contact .icon-tabler:hover {
+  stroke: rgb(97, 155, 151);
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 900px;
+  }
 }/*# sourceMappingURL=main.css.map */
