@@ -126,13 +126,13 @@ nav {
 }
 
 /*=============== Footer ===============*/
-.icon-tabler-brand-twitter,
-.icon-tabler-brand-instagram,
-.icon-tabler-external-link {
-	transition: 0.3s;
+footer {
+	.icon-tabler {
+		transition: 0.3s;
 
-	&:hover {
-		stroke: $primary-color;
+		&:hover {
+			stroke: $primary-color;
+		}
 	}
 }
 

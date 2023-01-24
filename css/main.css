@@ -125,14 +125,10 @@ nav {
 }
 
 /*=============== Footer ===============*/
-.icon-tabler-brand-twitter,
-.icon-tabler-brand-instagram,
-.icon-tabler-external-link {
+footer .icon-tabler {
   transition: 0.3s;
 }
-.icon-tabler-brand-twitter:hover,
-.icon-tabler-brand-instagram:hover,
-.icon-tabler-external-link:hover {
+footer .icon-tabler:hover {
   stroke: rgb(97, 155, 151);
 }
 
