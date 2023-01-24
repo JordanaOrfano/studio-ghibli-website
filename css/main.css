@@ -387,9 +387,11 @@ footer .icon-tabler:hover {
 }
 .contact .icon-tabler {
   transition: 0.3s;
+  border: 2px solid #212529;
 }
 .contact .icon-tabler:hover {
   stroke: rgb(97, 155, 151);
+  border: 2px solid rgb(97, 155, 151);
 }
 
 @media (min-width: 992px) {

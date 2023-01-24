@@ -379,9 +379,11 @@ footer {
 	}
 	.icon-tabler {
 		transition: 0.3s;
+		border: 2px solid #212529;
 
 		&:hover {
 			stroke: $primary-color;
+			border: 2px solid $primary-color;
 		}
 	}
 }
