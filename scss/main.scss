@@ -349,6 +349,80 @@ footer {
 	}
 }
 
+@media (max-width: 425px) {
+	#modal {
+		&Kiki {
+			background-image: url('../img/home/modal/modal-kiki-mobile.jpg');
+		}
+		&SpiritedAway {
+			background-image: url('../img/home/modal/modal-spiritedaway-mobile.jpg');
+		}
+		&Howl {
+			background-image: url('../img/home/modal/modal-howl-mobile.jpg');
+		}
+		&Totoro {
+			background-image: url('../img/home/modal/modal-totoro-mobile.jpg');
+		}
+		&TheWindRises {
+			background-image: url('../img/home/modal/modal-thewindrises-mobile.jpg');
+		}
+		&Mononoke {
+			background-image: url('../img/home/modal/modal-mononoke-mobile.jpg');
+		}
+		&Marnie {
+			background-image: url('../img/home/modal/modal-marnie-mobile.jpg');
+		}
+		&Kaguya {
+			background-image: url('../img/home/modal/modal-kaguya-mobile.jpg');
+		}
+		&Arrietty {
+			background-image: url('../img/home/modal/modal-arrietty-mobile.jpg');
+		}
+		&Ponyo {
+			background-image: url('../img/home/modal/modal-ponyo-mobile.jpg');
+		}
+		&GraveFireflies {
+			background-image: url('../img/home/modal/modal-gravefireflies-mobile.jpg');
+		}
+		&TalesFromEarthsea {
+			background-image: url('../img/home/modal/modal-talesfromearthsea-mobile.jpg');
+		}
+		&Whisper {
+			background-image: url('../img/home/modal/modal-whisper-mobile.jpg');
+		}
+		&Porco {
+			background-image: url('../img/home/modal/modal-porco-mobile.jpg');
+		}
+		&OnlyYesterday {
+			background-image: url('../img/home/modal/modal-onlyyesterday-mobile.jpg');
+		}
+		&PoppyHill {
+			background-image: url('../img/home/modal/modal-poppyhill-mobile.jpg');
+		}
+		&CastleSky {
+			background-image: url('../img/home/modal/modal-castlesky-mobile.jpg');
+		}
+		&Nausicaa {
+			background-image: url('../img/home/modal/modal-nausicaa-mobile.jpg');
+		}
+		&OceanWaves {
+			background-image: url('../img/home/modal/modal-oceanwaves-mobile.jpg');
+		}
+		&TheCatReturns {
+			background-image: url('../img/home/modal/modal-thecatreturns-mobile.jpg');
+		}
+		&PomPoko {
+			background-image: url('../img/home/modal/modal-pompoko-mobile.jpg');
+		}
+		&NeighborsYamadas {
+			background-image: url('../img/home/modal/modal-neighborsyamadas-mobile.jpg');
+		}
+		&Earwig {
+			background-image: url('../img/home/modal/modal-earwig-mobile.jpg');
+		}
+	}
+}
+
 /*=============== ABOUT ===============*/
 .header-img {
 	box-shadow: $box-shadow;
