@@ -366,10 +366,11 @@ footer {
 	border-left: 2px solid rgb(24, 26, 24);
 	font-style: italic;
 }
+
 /*=============== CONTACT ===============*/
 .contact {
-	input:focus,
-	textarea:focus {
+	&__input:focus,
+	&__input:focus {
 		box-shadow: none;
 		border-color: $primary-color;
 	}
