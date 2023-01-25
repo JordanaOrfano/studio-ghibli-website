@@ -53,15 +53,15 @@
 					<div class="col-12 col-sm-11">
 						<form action="" method="post">
 							<div class="mb-3 form-floating">
-								<input type="text" class="form-control" id="inputName" placeholder="Name" required autocomplete="on" />
+								<input type="text" class="form-control" id="inputName" placeholder="Name" required autocomplete="on" minlength='2' />
 								<label for="inputName">Name</label>
 							</div>
 							<div class="mb-3 form-floating">
-								<input type="email" class="form-control" id="inputEmail" placeholder="Email address" required autocomplete="on" />
+								<input type="email" class="form-control" id="inputEmail" placeholder="Email address" required autocomplete="on" minlength='2' />
 								<label for="inputEmail">Email address</label>
 							</div>
 							<div class="mb-3 form-floating">
-								<textarea class="mb-3 form-control" id="inputMessage" placeholder="Message" style="height: 150px" required></textarea>
+								<textarea class="mb-3 form-control" id="inputMessage" placeholder="Message" style="height: 150px" required minlength='2'></textarea>
 								<label for="inputMessage">Message</label>
 							</div>
 							<div><button type="submit" class="rounded contact__button">Send</button></div>
