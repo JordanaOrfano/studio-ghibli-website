@@ -14,8 +14,6 @@ let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 });
 
 // Search
-let boxes = document.querySelectorAll('.card');
-
 function liveSearch() {
 	let card = document.querySelectorAll('.card');
 	let search_query = document.getElementById('searchbox').value;

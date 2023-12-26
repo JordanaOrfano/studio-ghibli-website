@@ -100,19 +100,11 @@ nav {
 .search-box__input::-moz-placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
-.search-box__input:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.6);
-}
 .search-box__input::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 
 .search-box__input:not(:-moz-placeholder-shown) {
-  padding: 0 6px;
-  width: 180px;
-}
-
-.search-box__input:not(:-ms-input-placeholder) {
   padding: 0 6px;
   width: 180px;
 }
@@ -464,10 +456,4 @@ footer .icon-tabler:hover {
 .contact .icon-tabler:hover {
   stroke: rgb(97, 155, 151);
   border: 2px solid rgb(97, 155, 151);
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 900px;
-  }
 }/*# sourceMappingURL=main.css.map */
